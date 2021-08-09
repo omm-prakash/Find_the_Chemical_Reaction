@@ -40,7 +40,7 @@ Short explaination of functions defined:
 3. #### Detection
   *  **find_reaction**: Using OpenCV it read image from the *path*. Then detect the location of text and makes bounding box around the same, pass those to *find_character* through loop. Through loop it collects the texts recognised.
  
- <img width="793" alt="detect" src="https://user-images.githubusercontent.com/76400354/128739210-128de2b0-6ee6-41f0-82ac-603202211bc2.png">
+<img width="545" alt="detect" src="https://user-images.githubusercontent.com/76400354/128741317-2b78614f-06ea-43c8-be9c-6dc8251045af.png">
 
     
 ## reactants.zip
