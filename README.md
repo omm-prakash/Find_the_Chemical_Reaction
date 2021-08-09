@@ -39,9 +39,18 @@ Short explaination of functions defined:
   *  **find_result**: It search the *reaction* from a website named *chemequations.com* using *AutoScraper* liabrary. 
 3. #### Detection
   *  **find_reaction**: Using OpenCV it read image from the *path*. Then detect the location of text and makes bounding box around the same, pass those to *find_character* through loop. Through loop it collects the texts recognised.
+ 
+ <img width="793" alt="detect" src="https://user-images.githubusercontent.com/76400354/128739210-128de2b0-6ee6-41f0-82ac-603202211bc2.png">
+
     
 ## reactants.zip
 ---
 Find the test images from this zip file. You may find more from [here](https://drive.google.com/drive/folders/1VwN8h57rbff5GzMFPsxPipc59JmhrI0b?usp=sharing)
+
+---
+## Scope of Development
+1. With more data the accuracy of model can be improved
+2. Major part of data was of computer generated fonts, adding hand written text image the model can be more generalised.
+3. The image preprocessing before prediction, have a sound scope of improvment.
 
 
