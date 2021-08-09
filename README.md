@@ -48,7 +48,7 @@ Short explaination of functions defined:
 Find the test images from this zip file. You may find more from [here](https://drive.google.com/drive/folders/1VwN8h57rbff5GzMFPsxPipc59JmhrI0b?usp=sharing)
 
 ---
-## Scope of Development
+## Scope of Further Development
 1. With more data the accuracy of model can be improved
 2. Major part of data was of computer generated fonts, adding hand written text image the model can be more generalised.
 3. The image preprocessing before prediction, have a sound scope of improvment.
