@@ -7,19 +7,32 @@ This is ML project done in collaboration with my friends, help in finding the re
 2. find_reaction.ipynb
 3. reactants.zip
 
-## model.ipynb
+# model.ipynb
 ---
-# CNN Model
+
+## Data Loading
+Loads the data in 'dataset' variable, and spilts it so that 80% data stored in train_gen is used for training while the remaining 20% stored in val_gen is used for validation of the model. Each image was grayscaled, normalized by a factor of 255(so that the values of pixels were compressed from 0-255 to 0-1), and sized to 28 by 28.
+
+
+
+## CNN Model
 
 *Find Training Image Dataset from* [here](https://drive.google.com/file/d/1VtH9o5Vg34pHhDRlCqxi53BZIi6AYzDP/view?usp=sharing)
-### Model Structure
+## Model Structure
 
 <img width="432" alt="model" src="https://user-images.githubusercontent.com/76400354/128726402-e140d20f-bcbe-492b-8d17-d0bba89a26ca.png">
 
+Model was compiled, with loss=sparseCategoricalCrossentropy(), optimizer adam, for 7 epochs, and the training(train_gen) and testing(val_gen) datasets were passed and the network trained. The loss vs epochs as well as the accuracy vs epoch plots were plotted, using matplotlib library.
+
+## Saving the model
+
+The model was saved using model.save('/content/drive/MyDrive/ML Project/model',overwrite = True).
 
 
 
-## find_reaction.ipynb
+
+
+# find_reaction.ipynb
 
 ---
 
